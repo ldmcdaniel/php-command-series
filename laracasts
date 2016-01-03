@@ -9,6 +9,6 @@ require 'vendor/autoload.php';
 
 $app = new Application('Laracasts Demo', '1.0');
 
-$app->add(new SayHelloCommand);
+$app->add(new NewCommand);
 
 $app->run();
